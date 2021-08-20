@@ -1,0 +1,12 @@
+analyst@SecOnion:~$ sudo so-status
+Status: securityonion
+  * sguil server                                                       [  OK  ]
+Status: seconion-import
+  * pcap_agent (sguil)                                                 [  OK  ]
+  * snort_agent-1 (sguil)                                              [  OK  ]
+  * barnyard2-1 (spooler, unified2 format)                             [  OK  ]
+Status: Elastic stack
+  * so-elasticsearch                                                   [  OK  ]
+  * so-logstash                                                        [  OK  ]
+  * so-kibana                                                          [  OK  ]
+  * so-freqserver                                                      [  OK  ]
